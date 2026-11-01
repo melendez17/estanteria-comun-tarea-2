@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T15:03:26.382Z",
+  "title": "Design System: Estantería Común",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "primary",
+        "canonical": "#235647",
+        "tonalRamp": [
+          "oklch(15% 0.06073 171.28)",
+          "oklch(26% 0.06073 171.28)",
+          "oklch(38% 0.06073 171.28)",
+          "oklch(49% 0.06073 171.28)",
+          "oklch(61% 0.06073 171.28)",
+          "oklch(72% 0.06073 171.28)",
+          "oklch(84% 0.06073 171.28)",
+          "oklch(95% 0.06073 171.28)"
+        ]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "secondary",
+        "canonical": "#6b594b",
+        "tonalRamp": [
+          "oklch(15% 0.03216 59.78)",
+          "oklch(26% 0.03216 59.78)",
+          "oklch(38% 0.03216 59.78)",
+          "oklch(49% 0.03216 59.78)",
+          "oklch(61% 0.03216 59.78)",
+          "oklch(72% 0.03216 59.78)",
+          "oklch(84% 0.03216 59.78)",
+          "oklch(95% 0.03216 59.78)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "danger",
+        "canonical": "#a02232",
+        "tonalRamp": [
+          "oklch(15% 0.16081 19.78)",
+          "oklch(26% 0.16081 19.78)",
+          "oklch(38% 0.16081 19.78)",
+          "oklch(49% 0.16081 19.78)",
+          "oklch(61% 0.16081 19.78)",
+          "oklch(72% 0.16081 19.78)",
+          "oklch(84% 0.16081 19.78)",
+          "oklch(95% 0.16081 19.78)"
+        ]
+      },
+      "body-bg": {
+        "role": "neutral",
+        "displayName": "body-bg",
+        "canonical": "#f6f5ef",
+        "tonalRamp": [
+          "oklch(15% 0.00801 98.88)",
+          "oklch(26% 0.00801 98.88)",
+          "oklch(38% 0.00801 98.88)",
+          "oklch(49% 0.00801 98.88)",
+          "oklch(61% 0.00801 98.88)",
+          "oklch(72% 0.00801 98.88)",
+          "oklch(84% 0.00801 98.88)",
+          "oklch(95% 0.00801 98.88)"
+        ]
+      },
+      "body-color": {
+        "role": "neutral",
+        "displayName": "body-color",
+        "canonical": "#243a32",
+        "tonalRamp": [
+          "oklch(15% 0.03142 169.55)",
+          "oklch(26% 0.03142 169.55)",
+          "oklch(38% 0.03142 169.55)",
+          "oklch(49% 0.03142 169.55)",
+          "oklch(61% 0.03142 169.55)",
+          "oklch(72% 0.03142 169.55)",
+          "oklch(84% 0.03142 169.55)",
+          "oklch(95% 0.03142 169.55)"
+        ]
+      },
+      "papel": {
+        "role": "neutral",
+        "displayName": "papel",
+        "canonical": "#fffefa",
+        "tonalRamp": [
+          "oklch(15% 0.00537 95.10)",
+          "oklch(26% 0.00537 95.10)",
+          "oklch(38% 0.00537 95.10)",
+          "oklch(49% 0.00537 95.10)",
+          "oklch(61% 0.00537 95.10)",
+          "oklch(72% 0.00537 95.10)",
+          "oklch(84% 0.00537 95.10)",
+          "oklch(95% 0.00537 95.10)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "border",
+        "canonical": "#cbd4cc",
+        "tonalRamp": [
+          "oklch(15% 0.01462 148.75)",
+          "oklch(26% 0.01462 148.75)",
+          "oklch(38% 0.01462 148.75)",
+          "oklch(49% 0.01462 148.75)",
+          "oklch(61% 0.01462 148.75)",
+          "oklch(72% 0.01462 148.75)",
+          "oklch(84% 0.01462 148.75)",
+          "oklch(95% 0.01462 148.75)"
+        ]
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "input-border",
+        "canonical": "#899d91",
+        "tonalRamp": [
+          "oklch(15% 0.02859 159.23)",
+          "oklch(26% 0.02859 159.23)",
+          "oklch(38% 0.02859 159.23)",
+          "oklch(49% 0.02859 159.23)",
+          "oklch(61% 0.02859 159.23)",
+          "oklch(72% 0.02859 159.23)",
+          "oklch(84% 0.02859 159.23)",
+          "oklch(95% 0.02859 159.23)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "focus",
+        "canonical": "#967027",
+        "tonalRamp": [
+          "oklch(15% 0.10047 80.21)",
+          "oklch(26% 0.10047 80.21)",
+          "oklch(38% 0.10047 80.21)",
+          "oklch(49% 0.10047 80.21)",
+          "oklch(61% 0.10047 80.21)",
+          "oklch(72% 0.10047 80.21)",
+          "oklch(84% 0.10047 80.21)",
+          "oklch(95% 0.10047 80.21)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "canonical": "#4d6257",
+        "tonalRamp": [
+          "oklch(15% 0.03095 162.14)",
+          "oklch(26% 0.03095 162.14)",
+          "oklch(38% 0.03095 162.14)",
+          "oklch(49% 0.03095 162.14)",
+          "oklch(61% 0.03095 162.14)",
+          "oklch(72% 0.03095 162.14)",
+          "oklch(84% 0.03095 162.14)",
+          "oklch(95% 0.03095 162.14)"
+        ]
+      },
+      "pendiente-bg": {
+        "role": "neutral",
+        "displayName": "pendiente-bg",
+        "canonical": "#e7ebdf",
+        "tonalRamp": [
+          "oklch(15% 0.01652 121.78)",
+          "oklch(26% 0.01652 121.78)",
+          "oklch(38% 0.01652 121.78)",
+          "oklch(49% 0.01652 121.78)",
+          "oklch(61% 0.01652 121.78)",
+          "oklch(72% 0.01652 121.78)",
+          "oklch(84% 0.01652 121.78)",
+          "oklch(95% 0.01652 121.78)"
+        ]
+      },
+      "pendiente-text": {
+        "role": "neutral",
+        "displayName": "pendiente-text",
+        "canonical": "#334933",
+        "tonalRamp": [
+          "oklch(15% 0.04599 144.60)",
+          "oklch(26% 0.04599 144.60)",
+          "oklch(38% 0.04599 144.60)",
+          "oklch(49% 0.04599 144.60)",
+          "oklch(61% 0.04599 144.60)",
+          "oklch(72% 0.04599 144.60)",
+          "oklch(84% 0.04599 144.60)",
+          "oklch(95% 0.04599 144.60)"
+        ]
+      },
+      "leyendo-bg": {
+        "role": "neutral",
+        "displayName": "leyendo-bg",
+        "canonical": "#f4e4bc",
+        "tonalRamp": [
+          "oklch(15% 0.05505 88.81)",
+          "oklch(26% 0.05505 88.81)",
+          "oklch(38% 0.05505 88.81)",
+          "oklch(49% 0.05505 88.81)",
+          "oklch(61% 0.05505 88.81)",
+          "oklch(72% 0.05505 88.81)",
+          "oklch(84% 0.05505 88.81)",
+          "oklch(95% 0.05505 88.81)"
+        ]
+      },
+      "leyendo-text": {
+        "role": "neutral",
+        "displayName": "leyendo-text",
+        "canonical": "#654b11",
+        "tonalRamp": [
+          "oklch(15% 0.07985 82.80)",
+          "oklch(26% 0.07985 82.80)",
+          "oklch(38% 0.07985 82.80)",
+          "oklch(49% 0.07985 82.80)",
+          "oklch(61% 0.07985 82.80)",
+          "oklch(72% 0.07985 82.80)",
+          "oklch(84% 0.07985 82.80)",
+          "oklch(95% 0.07985 82.80)"
+        ]
+      },
+      "leido-bg": {
+        "role": "neutral",
+        "displayName": "leido-bg",
+        "canonical": "#d4e7dd",
+        "tonalRamp": [
+          "oklch(15% 0.02425 163.10)",
+          "oklch(26% 0.02425 163.10)",
+          "oklch(38% 0.02425 163.10)",
+          "oklch(49% 0.02425 163.10)",
+          "oklch(61% 0.02425 163.10)",
+          "oklch(72% 0.02425 163.10)",
+          "oklch(84% 0.02425 163.10)",
+          "oklch(95% 0.02425 163.10)"
+        ]
+      },
+      "leido-text": {
+        "role": "neutral",
+        "displayName": "leido-text",
+        "canonical": "#164b36",
+        "tonalRamp": [
+          "oklch(15% 0.06677 163.35)",
+          "oklch(26% 0.06677 163.35)",
+          "oklch(38% 0.06677 163.35)",
+          "oklch(49% 0.06677 163.35)",
+          "oklch(61% 0.06677 163.35)",
+          "oklch(72% 0.06677 163.35)",
+          "oklch(84% 0.06677 163.35)",
+          "oklch(95% 0.06677 163.35)"
+        ]
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "entrada",
+        "value": ".3s ease-out",
+        "purpose": "Entrada de una lectura."
+      },
+      {
+        "name": "cambio",
+        "value": ".55s ease-out",
+        "purpose": "Resaltar actualización."
+      },
+      {
+        "name": "salida",
+        "value": ".24s ease-out",
+        "purpose": "Retirar una lectura."
+      },
+      {
+        "name": "movimiento-reducido",
+        "value": ".01ms",
+        "purpose": "Duración con prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desde-tablet",
+        "value": "48rem"
+      },
+      {
+        "name": "catalogo-tres-columnas",
+        "value": "70rem"
+      }
+    ],
+    "notes": "Las rampas tonales son muestras sintetizadas para el panel, no tokens usados por la aplicación. Los controles conservan Bootstrap; los fragmentos muestran sus rasgos visuales compartidos."
+  },
+  "components": [
+    {
+      "name": "Acción principal",
+      "kind": "button",
+      "description": "Botón Bootstrap con el verde principal del proyecto.",
+      "html": "<button class=\"ds-btn\">Buscar libros</button>",
+      "css": ".ds-btn{font:1rem/1.5 \"Segoe UI\",system-ui,sans-serif;padding:.375rem .75rem;color:#fff;background:#235647;border:1px solid #235647;border-radius:.75rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.ds-btn:hover{background:rgb(29.75,73.1,60.35);border-color:rgb(28,68.8,56.8)}.ds-btn:active{background:rgb(28,68.8,56.8);border-color:rgb(26.25,64.5,53.25)}.ds-btn:focus-visible{outline:3px solid #967027;outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none}}"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Agrupa formulario o contenido.",
+      "html": "<section class=\"ds-panel\">Lecturas del club</section>",
+      "css": ".ds-panel{background:#fffefa;padding:1.5rem;border:1px solid #cbd4cc;border-radius:.75rem;color:#243a32}"
+    },
+    {
+      "name": "Pendiente",
+      "kind": "chip",
+      "refersTo": "estado-pendiente",
+      "description": "Estado textual de la lectura.",
+      "html": "<span class=\"ds-estado\">Pendiente</span>",
+      "css": ".ds-estado{display:inline-block;font-family:\"Segoe UI\",system-ui,sans-serif;font-size:.85rem;font-weight:600;padding:.3rem .65rem;border-radius:.35rem;background:#e7ebdf;color:#334933}"
+    },
+    {
+      "name": "Leyendo",
+      "kind": "chip",
+      "refersTo": "estado-leyendo",
+      "description": "Estado textual de la lectura.",
+      "html": "<span class=\"ds-estado\">Leyendo</span>",
+      "css": ".ds-estado{display:inline-block;font-family:\"Segoe UI\",system-ui,sans-serif;font-size:.85rem;font-weight:600;padding:.3rem .65rem;border-radius:.35rem;background:#f4e4bc;color:#654b11}"
+    },
+    {
+      "name": "Leído",
+      "kind": "chip",
+      "refersTo": "estado-leido",
+      "description": "Estado textual de la lectura.",
+      "html": "<span class=\"ds-estado\">Leído</span>",
+      "css": ".ds-estado{display:inline-block;font-family:\"Segoe UI\",system-ui,sans-serif;font-size:.85rem;font-weight:600;padding:.3rem .65rem;border-radius:.35rem;background:#d4e7dd;color:#164b36}"
+    },
+    {
+      "name": "Campo con error",
+      "kind": "input",
+      "description": "Error visible junto al control.",
+      "html": "<label class=\"ds-label\" for=\"ds-title\">Título</label><input id=\"ds-title\" class=\"ds-input\" aria-describedby=\"ds-error\" aria-invalid=\"true\"><span id=\"ds-error\" class=\"ds-error\">Escribe un título.</span>",
+      "css": ".ds-label{display:block}.ds-input{padding:.375rem .75rem;font:1rem/1.5 \"Segoe UI\",system-ui,sans-serif;color:#243a32;background:#fff;border:1px solid #899d91;border-radius:.75rem;caret-color:#235647}.ds-input:focus-visible{outline:3px solid #967027;outline-offset:3px}.ds-error{display:block;color:#a02232;font-size:.875rem;margin-top:.3rem;min-height:1.25em}"
+    },
+    {
+      "name": "Navegación",
+      "kind": "nav",
+      "description": "Marca con serif y separación inferior.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">Estantería Común</a></nav>",
+      "css": ".ds-nav{border-bottom:1px solid #cbd4cc;padding:.5rem 0}.ds-brand{font-family:Georgia,serif;font-size:1.5rem;color:#243a32;text-decoration:none}.ds-brand:focus-visible{outline:3px solid #967027;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "overview": "Sistema funcional para un club de lectura: superficies claras, acento verde y títulos con serif. Esta documentación describe la implementación delegada; no atribuye al usuario una metáfora ni preferencias de marca adicionales.",
+    "keyCharacteristics": [
+      "Jerarquía de lectura clara.",
+      "Formularios y estados visibles en español.",
+      "Estilos compartidos y composición mobile-first."
+    ],
+    "rules": [],
+    "dos": [
+      "Reutilizar los estilos Sass compartidos entre ambas aplicaciones.",
+      "Mantener nombres de estado y mensajes de error visibles.",
+      "Comprobar formularios y acciones en pantallas pequeñas y con teclado."
+    ],
+    "donts": [
+      "Comunicar estados únicamente mediante color.",
+      "Introducir estilos divergentes para controles equivalentes.",
+      "Añadir movimiento que ignore la preferencia de movimiento reducido."
+    ]
+  }
+}
