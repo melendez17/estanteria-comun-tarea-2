@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Busca libros y comparte tu próxima lectura con Estantería Común."><title>Buscador · Estantería Común</title><link rel="icon" href="/sin-portada.svg"><link rel="stylesheet" href="/css/main.css"></head>
+<body>
+<a class="visually-hidden-focusable" href="#principal">Saltar al contenido</a>
+<nav class="navbar navbar-expand bg-white" aria-label="Navegación principal"><div class="container flex-wrap gap-2"><a class="navbar-brand" href="#">Estantería Común</a><div class="navbar-nav flex-row gap-3"><a class="nav-link" href="#lecturas">Mis lecturas</a><a class="nav-link" href="#proponer">Proponer</a></div></div></nav>
+<main id="principal" class="container pb-5">
+  <header class="intro"><h1>La próxima lectura empieza aquí.</h1><p class="lead mt-3">Explora libros, guarda los que te interesan y comparte una propuesta con el club.</p></header>
+  <section aria-labelledby="buscar-titulo"><h2 id="buscar-titulo" class="h4">Busca en el catálogo</h2>
+    <form id="busqueda" class="row g-2 mb-3" role="search"><div class="col-12 col-sm"><label for="consulta" class="form-label">Título o autor</label><input id="consulta" name="consulta" class="form-control" required minlength="2" maxlength="150" placeholder="Por ejemplo: Isabel Allende"></div><div class="col-12 col-sm-auto d-flex align-items-end"><button class="btn btn-primary w-100" id="buscar" type="submit">Buscar libros</button></div></form>
+    <p class="small text-secondary">Catálogo público de Open Library. Hasta 12 resultados por búsqueda.</p>
+    <div id="busqueda-aviso" role="status" aria-live="polite" class="alert alert-light">Escribe un título o autor para comenzar.</div>
+    <div id="resultados" class="catalogo" aria-busy="false"></div>
+  </section>
+  <section id="lecturas" class="seccion" aria-labelledby="lecturas-titulo"><h2 id="lecturas-titulo">Mis lecturas</h2><p>Tu lista se conserva mientras esta página permanezca abierta.</p><div id="lista-aviso" role="status" aria-live="polite"></div><p id="lista-vacia" class="panel">Todavía no tienes libros. Agrega uno desde el catálogo.</p><div id="tabla-contenedor" class="table-responsive" hidden><table class="table"><caption>Libros guardados y su estado de lectura</caption><thead><tr><th scope="col">Libro</th><th scope="col">Estado</th><th scope="col">Acciones</th></tr></thead><tbody id="lista-lecturas"></tbody></table></div></section>
+  <section id="proponer" class="seccion" aria-labelledby="proponer-titulo"><div class="row g-4"><div class="col-lg-4"><h2 id="proponer-titulo">Una lectura para compartir</h2><p>Propón un libro para la próxima sesión. Cuéntanos por qué vale la pena leerlo juntos.</p><p class="small text-secondary">Este formulario usa un servicio de pruebas: simula el registro y no guarda una propuesta real.</p></div><div class="col-lg-8"><form id="propuesta" class="panel" novalidate>
+    <p class="small">Todos los campos son obligatorios.</p><div class="row g-3">
+    <div class="col-12"><label for="titulo" class="form-label">Título</label><input id="titulo" name="titulo" class="form-control" required minlength="2" maxlength="160" aria-describedby="error-titulo"><span id="error-titulo" class="error-campo"></span></div>
+    <fieldset class="col-12"><legend class="fs-6">Autores</legend><div id="autores"></div><button id="agregar-autor" type="button" class="btn btn-sm btn-outline-primary mt-2">Agregar autor</button><p class="small mt-2 mb-0">Entre uno y cinco autores.</p></fieldset>
+    <div class="col-sm-6"><label for="anio" class="form-label">Año de publicación</label><input id="anio" name="anio" type="number" min="1" step="1" class="form-control" required aria-describedby="error-anio"><span id="error-anio" class="error-campo"></span></div>
+    <div class="col-sm-6"><label for="paginas" class="form-label">Cantidad de páginas</label><input id="paginas" name="paginas" type="number" min="1" max="20000" step="1" class="form-control" required aria-describedby="error-paginas"><span id="error-paginas" class="error-campo"></span></div>
+    <div class="col-sm-6"><label for="genero" class="form-label">Género</label><select id="genero" name="genero" class="form-select" required aria-describedby="error-genero"><option value="">Selecciona un género</option>Novela</option><option>Cuento</option><option>Poesía</option><option>Ensayo</option><option>Biografía</option><option>Otro</option></select><span id="error-genero" class="error-campo"></span></div>
+    <div class="col-sm-6"><label for="correo" class="form-label">Tu correo</label><input id="correo" name="correo" type="email" maxlength="254" autocomplete="email" class="form-control" required aria-describedby="error-correo"><span id="error-correo" class="error-campo"></span></div>
+    <div class="col-12"><label for="fecha" class="form-label">Fecha propuesta para la sesión</label><input id="fecha" name="fecha" type="date" class="form-control" required aria-describedby="error-fecha"><span id="error-fecha" class="error-campo"></span></div>
+    <div class="col-12"><label for="motivo" class="form-label">¿Por qué lo propones?</label><textarea id="motivo" name="motivo" class="form-control" rows="4" required minlength="20" maxlength="1000" aria-describedby="error-motivo"></textarea><span id="error-motivo" class="error-campo"></span></div>
+    <div class="col-12"><button id="enviar-propuesta" class="btn btn-primary" type="submit">Enviar propuesta</button></div></div><div id="propuesta-aviso" class="mt-3" role="status" aria-live="polite"></div>
+  </form></div></div></section>
+</main>
+<footer class="pie"><div class="container">Estantería Común · Un club, muchas historias.</div></footer>
+<div class="modal fade" id="detalle-modal" tabindex="-1" aria-labelledby="detalle-titulo" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title fs-4" id="detalle-titulo"></h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar detalle"></button></div><div class="modal-body" id="detalle-cuerpo"></div></div></div></div>
+<script type="module" src="/js/main.js"></script>
+</body></html>
