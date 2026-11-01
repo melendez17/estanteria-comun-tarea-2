@@ -1,0 +1,17 @@
+{
+  "linea": 21,
+  "funcion": "validar",
+  "inspeccion": {
+    "id": "genero",
+    "valor": "",
+    "opciones": [
+      "Selecciona un género",
+      "Cuento",
+      "Poesía",
+      "Ensayo",
+      "Biografía",
+      "Otro"
+    ],
+    "html": "<select id=\"genero\" name=\"genero\" class=\"form-select\" required=\"\" aria-describedby=\"error-genero\"><option value=\"\">Selecciona un género</option>Novela<option>Cuento</option><option>Poesía</option><option>Ensayo</option><option>Biografía</option><option>Otro</option></select>"
+  }
+}
