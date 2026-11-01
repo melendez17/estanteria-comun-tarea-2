@@ -1,4 +1,4 @@
-import { Modal } from 'bootstrap';
+import Modal from 'bootstrap/js/dist/modal';
 import { elemento, boton } from './dom.js';
 
 function portada(libro) {

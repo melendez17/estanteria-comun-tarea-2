@@ -28,7 +28,7 @@ input, textarea { caret-color: $primary; }
 .estado-leido { background: #d4e7dd; color: #164b36; }
 .lectura { transition: opacity .24s ease-out, transform .24s ease-out, background-color .24s ease-out;
   &.entrando { animation: aparecer .3s ease-out; }
-  &.cambiando { animation: resaltar .55s ease-out; }
+  &.cambiando > td { animation: resaltar .55s ease-out; }
   &.saliendo { opacity: 0; transform: translateX(1rem); pointer-events: none; }
 }
 @keyframes aparecer { from { opacity: .2; transform: translateY(.6rem); } to { opacity: 1; transform: translateY(0); } }
@@ -42,6 +42,6 @@ input, textarea { caret-color: $primary; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .lectura { transition-duration: .01ms; animation-duration: .01ms;
-    &.entrando, &.cambiando { animation-duration: .01ms; }
+    &.entrando, &.cambiando > td { animation-duration: .01ms; }
   }
 }
