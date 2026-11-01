@@ -1,0 +1,6 @@
+{
+  "name": "estanteria-tablero", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1 --port 5174 --strictPort", "build": "vite build", "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort" },
+  "dependencies": { "bootstrap": "5.3.8", "react": "19.1.1", "react-dom": "19.1.1" },
+  "devDependencies": { "@vitejs/plugin-react": "4.7.0", "sass": "1.93.2", "vite": "6.4.1" }
+}
