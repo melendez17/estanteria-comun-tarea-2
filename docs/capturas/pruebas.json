@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-11-01T15:02:51.774Z",
+  "registro": [
+    "Búsqueda solo al enviar, resultados creados como texto y portada alternativa: correcto.",
+    "Fondo real de una celda al cambiar estado: rgb(246, 245, 239).",
+    "Modal, duplicados, cambio de estado y eliminación al terminar la transición, también con movimiento reducido: correcto.",
+    "Validación de campos, año futuro, fecha pasada, límites de autores y envío de los cinco autores: correcto.",
+    "Búsqueda sin resultados y respuesta HTTP de error: correcto.",
+    "Fallo de red en búsqueda y error HTTP al proponer: avisos visibles, botones restaurados y datos conservados.",
+    "React: filtros combinados, resumen, vacío, validación, alta, cambio y eliminación: correcto.",
+    "Sin excepciones JavaScript durante los recorridos probados. Ambas vistas móviles sin desbordamiento horizontal."
+  ],
+  "errores": [],
+  "nota": "APIs simuladas para pruebas repetibles; no equivalen a comprobar los servicios externos en vivo."
+}

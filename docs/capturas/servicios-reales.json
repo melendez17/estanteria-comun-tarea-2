@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-11-01T14:52:44.037Z",
+  "busqueda": {
+    "mensaje": "Encontramos 12 libros. Abre un detalle o agrega una lectura.",
+    "libros": 12
+  },
+  "post": {
+    "ok": true,
+    "status": 201,
+    "datos": {
+      "titulo": "Prueba académica de conexión",
+      "autores": [
+        "Autor de prueba"
+      ],
+      "motivo": "Validación del servicio de simulación de la tarea.",
+      "id": 101
+    }
+  }
+}

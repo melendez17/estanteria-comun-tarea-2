@@ -33,9 +33,9 @@ Entorno: Chrome, servidor local de **producción** (`npm run build` y `npm run p
 
 La transferencia inicial disminuyó **24 500 bytes (37,86 %)**. El tamaño CSS sin compresión disminuyó 26,55 % y el JavaScript 63,00 %. Los tamaños de transferencia incluyen cabeceras y compresión, por lo que no coinciden con la suma de los tamaños de archivos fuente.
 
-Los datos sin procesar están en [red-antes.json](capturas/red-antes.json) y [red-despues.json](capturas/red-despues.json). `recursos` corresponde a Resource Timing; `peticiones` en estos dos registros cuenta eventos `Network.loadingFinished`. Para distinguir eventos y solicitudes únicas, se incluye además [red-detalle.json](capturas/red-detalle.json) con las URLs y [red-final.har](capturas/red-final.har). La captura de Network permite contrastar la carga final en las herramientas del navegador.
+Los datos sin procesar están en [red-antes.json](capturas/red-antes.json) y [red-despues.json](capturas/red-despues.json). `recursos` corresponde a Resource Timing; `peticiones` en estos dos registros cuenta eventos `Network.loadingFinished`: hay **cuatro solicitudes HTTP** (documento, CSS, JavaScript y favicon) y dos recursos SVG `data:` internos que no transfieren bytes por red. No son seis llamadas a servicios externos.
 
-![Panel de red de Chrome](capturas/red-devtools.png)
+Se incluye [red-detalle.json](capturas/red-detalle.json) con las URLs y [red-final.har](capturas/red-final.har), que puedes importar en el panel Network de Chrome para analizar la carga. El registro se obtuvo del mismo dominio Network de Chrome mediante DevTools Protocol; no es una captura dibujada del panel. Al buscar se añade una solicitud GET a Open Library y las portadas necesarias; al enviar una propuesta se añade el POST y puede aparecer una preconsulta CORS OPTIONS gestionada por el navegador.
 
 ## Optimización aplicada
 

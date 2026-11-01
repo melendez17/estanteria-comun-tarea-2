@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-11-01T15:02:44.179Z",
+  "solicitudesHTTP": 4,
+  "recursosData": 2,
+  "peticiones": [
+    {
+      "url": "http://127.0.0.1:4173/",
+      "tipo": "Document",
+      "transferidos": 2480
+    },
+    {
+      "url": "http://127.0.0.1:4173/css/main.css",
+      "tipo": "Stylesheet",
+      "transferidos": 25279
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-Dc3-ANcs.js",
+      "tipo": "Script",
+      "transferidos": 11823
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e",
+      "tipo": "Image",
+      "transferidos": 0
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJXaW5kb3dUZXh0IiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4=",
+      "tipo": "Image",
+      "transferidos": 0
+    },
+    {
+      "url": "http://127.0.0.1:4173/sin-portada.svg",
+      "tipo": "Other",
+      "transferidos": 633
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "etiqueta": "despues",
+  "peticiones": 6,
+  "bytesTransferidos": 40215,
+  "recursos": [
+    {
+      "url": "http://127.0.0.1:4173/css/main.css",
+      "bytes": 25257,
+      "decoded": 170817
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-Dc3-ANcs.js",
+      "bytes": 11751,
+      "decoded": 33956
+    },
+    {
+      "url": "http://127.0.0.1:4173/sin-portada.svg",
+      "bytes": 666,
+      "decoded": 366
+    }
+  ]
+}

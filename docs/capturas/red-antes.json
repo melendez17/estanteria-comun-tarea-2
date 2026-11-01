@@ -1,0 +1,22 @@
+{
+  "etiqueta": "antes",
+  "peticiones": 6,
+  "bytesTransferidos": 64715,
+  "recursos": [
+    {
+      "url": "http://127.0.0.1:4173/css/main.css",
+      "bytes": 32496,
+      "decoded": 232573
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-_x9w0Odj.js",
+      "bytes": 28986,
+      "decoded": 91771
+    },
+    {
+      "url": "http://127.0.0.1:4173/sin-portada.svg",
+      "bytes": 666,
+      "decoded": 366
+    }
+  ]
+}
